@@ -1,0 +1,62 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --primary: #ff0055;
+  --primary-dim: rgba(255, 0, 85, 0.1);
+  --bg-dark: #050505;
+  --text-main: #ffffff;
+  --text-muted: #8899a6;
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(0, 0, 0, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #000;
+  background-image:
+    radial-gradient(circle at 50% 0%, #1f0d14 0%, #000000 60%),
+    radial-gradient(circle at 80% 50%, rgba(255, 0, 85, 0.03), transparent 40%);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+code,
+pre,
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
