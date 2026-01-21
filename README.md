@@ -45,6 +45,11 @@ The lab allows students to:
 - Attack Time Comparison Charts
 - Rule Effectiveness Heatmaps
 
+### Glimpse of the UI
+
+<img width="1750" height="879" alt="image" src="https://github.com/user-attachments/assets/73286e48-01cb-444f-83ff-f6070cf7e77e" />
+
+
 ### 🔹 Run Frontend and Backend
 ```bash
 cd project24-frontend
